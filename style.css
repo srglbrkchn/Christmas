@@ -1,7 +1,32 @@
+body {
+  background-color: rgba(232, 65, 24, .9);
+}
+
 .holiday-items {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 4rem;
   flex-direction: column;
+}
+
+/* Ginger bread attributes */
+.gingerbread .body {
+  fill: #cd803d;
+}
+
+.gingerbread .eye {
+  fill: #fff;
+}
+
+.gingerbread .mouth {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.gingerbread .limb {
+  stroke: #cd803d;
+  stroke-width: 35px;
+  stroke-linecap: round;
 }
