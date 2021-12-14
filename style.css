@@ -2,12 +2,17 @@ body {
   background-color: rgba(232, 65, 24, .9);
 }
 
+svg {
+  margin: 2rem;
+}
+
 .holiday-items {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 4rem;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* Ginger bread attributes */
