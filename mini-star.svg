@@ -1,0 +1,25 @@
+<!-- The mini star -->
+<svg class="star" width="20" height="20" viewbox="-10 -10 20 20">
+  <g>
+    <g>
+      <polygon points="0,0 3.6,-5 0,-10" fill="#EDD8B7" />
+      <polygon points="0,0 -3.6,-5 0,-10" fill="#E5C39C" />
+    </g>
+    <g transform="rotate(72)">
+      <polygon points="0,0 3.6,-5 0,-10" fill="#EDD8B7" />
+      <polygon points="0,0 -3.6,-5 0,-10" fill="#E5C39C" />
+    </g>
+    <g transform="rotate(-72)">
+      <polygon points="0,0 3.6,-5 0,-10" fill="#EDD8B7" />
+      <polygon points="0,0 -3.6,-5 0,-10" fill="#E5C39C" />
+    </g>
+    <g transform="rotate(144)">
+      <polygon points="0,0 3.6,-5 0,-10" fill="#EDD8B7" />
+      <polygon points="0,0 -3.6,-5 0,-10" fill="#E5C39C" />
+    </g>
+    <g transform="rotate(-144)">
+      <polygon points="0,0 3.6,-5 0,-10" fill="#EDD8B7" />
+      <polygon points="0,0 -3.6,-5 0,-10" fill="#E5C39C" />
+    </g>
+  </g>
+</svg>
