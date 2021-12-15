@@ -35,3 +35,25 @@ svg {
   stroke-width: 35px;
   stroke-linecap: round;
 }
+
+/* Christmas House */
+.christmas-house {
+  stroke-width: 2px;
+  fill: #116530;
+}
+
+.christmas-house .roof {
+  fill: none;
+  stroke-width: 20px;
+  stroke-linecap: round;
+  stroke: #CD1818;
+}
+
+.christmas-house .window {
+  fill: #FFF;
+  rx: 3px;
+}
+
+.christmas-house line {
+  stroke: #116530;
+}
