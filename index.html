@@ -12,6 +12,30 @@
 
   <div class="holiday-items">
 
+    <!-- Lined Ornoment -->
+    <svg class="lined-ornoment" width="200" height="200" viewbox="-100 -100 200 200">
+      <defs>
+        <clipPath id="ball">
+          <circle cx="0" cy="20" r="70" />
+        </clipPath>
+      </defs>
+
+      <circle cx="0" cy="20" r="70" fill="#CD1818"/>
+
+      <polyline
+        clip-path="url(#ball)"
+        points= "-120 40 -80 0 -40 40 0 0 40 40 80 0 120 40"
+        fill="none"
+        stroke-width="20"
+        stroke="#116530"
+       />
+
+       <circle cx="0" cy="-75" r="12" fill="none" stroke="#FC997C" stroke-width="2"/>
+
+       <rect x="-17.5" y="-65" width="35" height="20" fill="#FC997C" />
+
+    </svg>
+
 
     <!-- Curvy Christmas tree -->
     <svg class="curvy-tree" width="200" height="400" viewbox="-100 -200 200 400">
@@ -133,8 +157,7 @@
       <g stroke="#000" stroke-width="2">
         <circle cx="0" cy="-45" r="7" fill="#4F6D7A" />
         <circle cx="0" cy="50" r="10" fill="#F79257" />
-        <path
-          d="
+        <path d="
             M -50 40
             L -50 50
             L 50 50
@@ -142,12 +165,7 @@
             Q 40 40 40 10
             C 40 -60 -40 -60 -40 10
             Q -40 40 -50 40
-
-
-          "
-
-          fill="#FDEA96"
-         />
+          " fill="#FDEA96" />
       </g>
     </svg>
 
