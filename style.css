@@ -57,3 +57,15 @@ svg {
 .christmas-house line {
   stroke: #116530;
 }
+
+.christmas-house .door {
+  fill: #CD1818;
+  rx: 3px;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.christmas-house .stair {
+  stroke: #fff;
+  fill: #fff;
+}
