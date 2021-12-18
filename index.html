@@ -196,6 +196,32 @@
       </g>
     </svg>
 
+    <svg class="forest" width="200" height="200" rx="10" viewbox="-100 -100 200 200">
+
+      <defs>
+        <clipPath id="frame">
+          <rect x="-100" y="-100" width="200" height="200" rx="5" />
+        </clipPath>
+      </defs>
+
+      <defs>
+        <g id="tree">
+          <polygon points="-10,0 10,0 0,-50" fill="#38755b" />
+          <line x1="0" y1="0" x2="0" y2="10" stroke="#778074" stroke-width="2" />
+        </g>
+      </defs>
+
+      <rect x="-100" y="-100" width="200" height="200" rx="5"  fill="#F1DBC3" />
+      <circle clip-path="url(#frame)" cx="0" cy="380" r="350" fill="#FABB51" />
+
+
+      <use href="#tree" x="40" y="40" />
+      <use href="#tree" x="-30" y="25" transform="scale(2)" />
+      <use href="#tree" x="-20" y="40" transform="scale(1.2)" />
+      <use href="#tree" x="50" y="30" transform="scale(1.5)" />
+
+    </svg>
+
 
 
   </div>
