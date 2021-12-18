@@ -69,3 +69,47 @@ svg {
   stroke: #fff;
   fill: #fff;
 }
+
+
+/* Forest flakes */
+
+.flake {
+  animation-duration: inherit;
+  animation-name: snowing;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.opaque {
+  opacity: .7;
+}
+
+@keyframes snowing {
+
+  from {
+    transform: translate(0, -100px);
+  } to {
+    transform: translate(0, 120px);
+  }
+
+}
+
+.very-fast {
+  animation-duration: 1s;
+}
+
+.fast {
+  animation-duration: 2s;
+}
+
+.medium {
+  animation-duration: 3s;
+}
+
+.slow {
+  animation-duration: 4s;
+}
+
+.very-slow {
+  animation-duration: 5s;
+}
