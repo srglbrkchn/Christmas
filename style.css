@@ -93,6 +93,14 @@ svg {
 
 }
 
+/* Ice Bear */
+
+.ice-bear .mouth {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2;
+}
+
 
 /* Forest flakes */
 
