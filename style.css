@@ -93,6 +93,12 @@ svg {
 
 }
 
+/* Candy cane */
+.candy-cane .body {
+  stroke-linecap: round;
+  fill: none;
+}
+
 /* Ice Bear */
 
 .ice-bear .mouth {
