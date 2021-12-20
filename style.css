@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(232, 65, 24, .9);
+    rgba(236, 240, 241,.5)
 }
 
 svg {
@@ -94,13 +94,22 @@ svg {
 }
 
 /* Candy cane */
-.candy-cane .body {
+/* .candy-cane .body {
   stroke-linecap: round;
   fill: none;
 }
 
-/* Ice Bear */
+.candy-cane .red-mark {
+  stroke: #CD1818;
+  stroke-width: 25px;
+}
 
+.candy-cane .green-mark {
+  stroke: #234236;
+  stroke-width: 25px;
+} */
+
+/* Ice Bear */
 .ice-bear .mouth {
   fill: none;
   stroke: #000;
